@@ -51,8 +51,8 @@ Window {
             anchors.centerIn: speedImage
             transform: Rotation {
                 origin.x: 36
-                origin.y: speedNeedle.height / 2
-                angle: speed * 2 + 143  // scale và dịch về góc bắt đầu = 0
+                origin.y: speedNeedle.height / 4
+                angle: speed *1.1 + 143  // scale và dịch về góc bắt đầu = 0
             }
         }
 
